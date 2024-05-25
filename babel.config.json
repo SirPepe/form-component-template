@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "version": "2023-11"
+      }
+    ],
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "h"
+      }
+    ],
+    [
+      "babel-plugin-jsx-pragmatic",
+      {
+        "module": "preact",
+        "import": "h",
+        "export": "h"
+      }
+    ]
+  ]
+}
