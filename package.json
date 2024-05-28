@@ -18,5 +18,8 @@
     "@sirpepe/ornament": "^1.0.0",
     "preact": "^10.19.3",
     "uhtml": "^4.5.8"
+  },
+  "@parcel/resolver-default": {
+    "packageExports": true
   }
 }
